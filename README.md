@@ -1,5 +1,5 @@
 # angular-labs
-My personal angular repository to test some features and study purposes.
+My personal angular repository to test some features and learning purposes.
 
 ## APM-Start
 

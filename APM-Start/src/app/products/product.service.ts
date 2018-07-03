@@ -19,6 +19,13 @@ export class ProductService {
             .catch(this.handleError);
     }
 
+    // getProduct(id: number): Observable<IProduct> {
+    //     const products = this._httpClient.get<IProduct[]>(this._productUrl);
+    //     products.subscribe(products => {
+    //         return products.filter(p => p.productId === id);
+    //     });
+    // }
+
     handleError(err: HttpErrorResponse) {
         console.log(err.message);
         return Observable.throw(err.message);
